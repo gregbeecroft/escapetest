@@ -8,6 +8,6 @@
 #
 
 cron "test" do
-  command "/usr/bin/php /home/webapp/shflserver/packages/Console/cli.php "\Console\Controller\LiveMetricsProcessor"  > /dev/null"
+  command "/usr/bin/php /home/webapp/shflserver/packages/Console/cli.php '\\Console\\Controller\\LiveMetricsProcessor'  > /dev/null"
   minute "5"
 end
