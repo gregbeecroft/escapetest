@@ -24,7 +24,8 @@
   "groupings": {
   },
   "recipes": {
-    "escapetest::default": "Testing escape chars"
+    "escapetest::default": "Testing escape chars",
+    "escapetest::hello_world": "Testing Hello World"
   },
   "version": "0.1.0"
 }
